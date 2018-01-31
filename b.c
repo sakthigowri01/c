@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-inta,b;
+int a,b;
 clrscr();
 printf("enter a integer ;");
 scanf("%d",&number);
 printf("result;%s",odd even(number));
 return 0;
 }
-char*odd even(int nuber)
+char*odd even(int number)
 {
 if(number%2==0);
 printf("your number is even number");
